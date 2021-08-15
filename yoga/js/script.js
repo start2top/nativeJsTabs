@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', function(){
                 tabContent[b].classList.add('show');
             }
         }
-        // adding event on click previus functions
+        // adding event on click showing only one active tab
         info.addEventListener('click', function(event){
             let target = event.target;
             if (target && target.classList.contains('info-header-tab')) {
